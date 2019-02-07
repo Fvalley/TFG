@@ -1,0 +1,311 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="vDesarrollo" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/engine2 - structuralEngine D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v3|vDesarrollo|prueba2.vhd</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e0 - engine0 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e1 - engine1 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e10 - engine10 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e11 - engine11 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e12 - engine12 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e13 - engine13 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e14 - engine14 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e15 - engine15 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e16 - engine16 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e17 - engine17 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e18 - engine18 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e19 - engine19 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e2 - engine2 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e20 - engine20 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e21 - engine21 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e22 - engine22 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e23 - engine23 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e24 - engine24 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e25 - engine25 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e26 - engine26 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e27 - engine27 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e28 - engine28 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e29 - engine29 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e3 - engine3 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e30 - engine30 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e31 - engine31 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e32 - engine32 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e33 - engine33 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e34 - engine34 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e35 - engine35 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e36 - engine36 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e37 - engine37 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e38 - engine38 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e39 - engine39 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e4 - engine4 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e40 - engine40 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e41 - engine41 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e42 - engine42 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e43 - engine43 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e44 - engine44 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e45 - engine45 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e46 - engine46 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e47 - engine47 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e48 - engine48 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e49 - engine49 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e5 - engine5 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e50 - engine50 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e6 - engine6 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e7 - engine7 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e8 - engine8 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e9 - engine9 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Simulacion.vhd/reconocedor - regExpMatching - structuralRegExpMatching</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v3|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e0 - engine0 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v3|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e1 - engine1 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v3|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e2 - engine2 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v3|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e3 - engine3 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|SkyNet|Mis documentos|My Dropbox|Universidad|Proyecto|ReconocedorERs_v3|reconocedorERS.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e0 - engine0 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|SkyNet|Mis documentos|My Dropbox|Universidad|Proyecto|ReconocedorERs_v3|reconocedorERS.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e2 - engine2 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|SkyNet|Mis documentos|My Dropbox|Universidad|Proyecto|ReconocedorERs_v3|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|SkyNet|Mis documentos|My Dropbox|Universidad|Proyecto|ReconocedorERs_v3|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e0 - engine0 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|SkyNet|Mis documentos|My Dropbox|Universidad|Proyecto|ReconocedorERs_v3|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e1 - engine1 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|SkyNet|Mis documentos|My Dropbox|Universidad|Proyecto|ReconocedorERs_v3|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e2 - engine2 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|SkyNet|Mis documentos|My Dropbox|Universidad|Proyecto|ReconocedorERs_v3|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e3 - engine3 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|SkyNet|Mis documentos|My Dropbox|Universidad|Proyecto|ReconocedorERs_v3|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e5 - engine5 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|SkyNet|Mis documentos|My Dropbox|Universidad|Proyecto|ReconocedorERs_v3|reconocedorERS_FPGA.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e0 - engine0 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|SkyNet|Mis documentos|My Dropbox|Universidad|Proyecto|ReconocedorERs_v3|reconocedorERS_FPGA.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e2 - engine2 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_FPGA - reconocedorERS_FPGA_arch D:|SkyNet|Mis documentos|My Dropbox|Universidad|Proyecto|ReconocedorERs_v3|reconocedorERS_FPGA.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e0 - engine0 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_FPGA - reconocedorERS_FPGA_arch D:|SkyNet|Mis documentos|My Dropbox|Universidad|Proyecto|ReconocedorERs_v3|reconocedorERS_FPGA.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e2 - engine2 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Simulacion - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching</ClosedNode>
+         <ClosedNode>/regExpMatching - structuralRegExpMatching D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|VHDLFile.vhd</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>reconocedor - regExpMatching - structuralRegExpMatching (D:/SkyNet/Mis documentos/My Dropbox/Universidad/Proyecto/ReconocedorERs_v3/VHDLFile.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000202000000020000000000000000000000000000000064ffffffff000000810000000000000002000002020000000100000000000000000000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>reconocedor - regExpMatching - structuralRegExpMatching (D:/SkyNet/Mis documentos/My Dropbox/Universidad/Proyecto/ReconocedorERs_v3/VHDLFile.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000010a000000010000000100000000000000000000000064ffffffff0000008100000000000000010000010a0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000263000000040101000100000000000000000000000064ffffffff000000810000000000000004000001230000000100000000000000470000000100000000000000660000000100000000000000930000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>divisor.xco</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>ISim Simulator</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000130000000010000000100000000000000000000000064ffffffff000000810000000000000001000001300000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Simulacion.vhd/reconocedor - regExpMatching - structuralRegExpMatching</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|SkyNet|Mis documentos|My Dropbox|Universidad|Proyecto|ReconocedorERs_v3|reconocedorERS.vhd</ClosedNode>
+         <ClosedNode>/reconocedorERS - reconocedorERS_arch D:|SkyNet|Mis documentos|My Dropbox|Universidad|Proyecto|ReconocedorERs_v3|reconocedorERS_Desarrollo.vhd/reconocedor - regExpMatching - structuralRegExpMatching</ClosedNode>
+         <ClosedNode>/reconocedorERS_FPGA - reconocedorERS_FPGA_arch D:|SkyNet|Mis documentos|My Dropbox|Universidad|Proyecto|ReconocedorERs_v3|reconocedorERS_FPGA.vhd/reconocedor - regExpMatching - structuralRegExpMatching</ClosedNode>
+         <ClosedNode>/reconocedorERS_FPGA - reconocedorERS_FPGA_arch D:|SkyNet|Mis documentos|My Dropbox|Universidad|Proyecto|ReconocedorERs_v3|reconocedorERS_FPGA.vhd/reconocedor - regExpMatching - structuralRegExpMatching/e2 - engine2 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench - behavior D:|SkyNet|Mis documentos|My Dropbox|Universidad|Proyecto|ReconocedorERs_v3|reconocedorERS_Test_Bench.vhd</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Benchmark - behavior D:|SkyNet|Mis documentos|My Dropbox|Universidad|Proyecto|ReconocedorERs_v3|reconocedorERS_Test_Bench_Benchmark.vhd</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Benchmark - behavior D:|SkyNet|Mis documentos|My Dropbox|Universidad|Proyecto|ReconocedorERs_v3|reconocedorERS_Test_Bench_Benchmark.vhd/uut - regExpMatching - structuralRegExpMatching</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching/e0 - engine0 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching/e1 - engine1 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching/e11 - engine11 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching/e12 - engine12 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching/e13 - engine13 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching/e14 - engine14 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching/e15 - engine15 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching/e16 - engine16 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching/e17 - engine17 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching/e18 - engine18 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching/e19 - engine19 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching/e2 - engine2 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching/e20 - engine20 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching/e21 - engine21 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching/e22 - engine22 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching/e23 - engine23 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching/e24 - engine24 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching/e25 - engine25 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching/e26 - engine26 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching/e27 - engine27 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching/e28 - engine28 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching/e29 - engine29 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching/e3 - engine3 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching/e30 - engine30 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching/e31 - engine31 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching/e32 - engine32 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching/e33 - engine33 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching/e34 - engine34 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching/e35 - engine35 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching/e36 - engine36 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching/e37 - engine37 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching/e38 - engine38 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching/e39 - engine39 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching/e4 - engine4 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching/e40 - engine40 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching/e41 - engine41 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching/e42 - engine42 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching/e43 - engine43 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching/e44 - engine44 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching/e45 - engine45 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching/e46 - engine46 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching/e47 - engine47 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching/e48 - engine48 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching/e49 - engine49 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching/e5 - engine5 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching/e50 - engine50 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching/e51 - engine51 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching/e52 - engine52 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching/e53 - engine53 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching/e6 - engine6 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching/e7 - engine7 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching/e8 - engine8 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching/e9 - engine9 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v3|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching/e0 - engine0 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v3|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching/e1 - engine1 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v3|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching/e2 - engine2 - structuralEngine</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|SkyNet|Mis documentos|My Dropbox|Universidad|Proyecto|ReconocedorERs_v3|reconocedorERS_Test_Bench_Desarrollo.vhd</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|SkyNet|Mis documentos|My Dropbox|Universidad|Proyecto|ReconocedorERs_v3|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch/reconocedor - regExpMatching - structuralRegExpMatching</ClosedNode>
+         <ClosedNode>/reconocedorERS_Test_Simulacion - behavior D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - reconocedorERS_arch</ClosedNode>
+         <ClosedNode>/regExpMatching - structuralRegExpMatching D:|My Dropbox|Universidad|Proyecto|ReconocedorERs_v2|VHDLFile.vhd</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>reconocedorERS_Test_Bench - behavior (D:/SkyNet/Mis documentos/My Dropbox/Universidad/Proyecto/ReconocedorERs_v3/reconocedorERS_Test_Bench.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000202000000020000000000000000000000000000000064ffffffff000000810000000000000002000002020000000100000000000000000000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>reconocedorERS_Test_Bench - behavior (D:/SkyNet/Mis documentos/My Dropbox/Universidad/Proyecto/ReconocedorERs_v3/reconocedorERS_Test_Bench.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000130000000010000000100000000000000000000000064ffffffff000000810000000000000001000001300000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000130000000010000000100000000000000000000000064ffffffff000000810000000000000001000001300000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff000000000000000200000134000000d801000000050100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="PostRouteSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/reconocedorERS_Test_Bench_Desarrollo - behavior D:|SkyNet|Mis documentos|My Dropbox|Universidad|Proyecto|ReconocedorERs_v3|reconocedorERS_Test_Bench_Desarrollo.vhd/uut - reconocedorERS - Structure</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Unassigned User Library Modules</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000024c000000020000000000000000000000000000000064ffffffff0000008100000000000000020000024c0000000100000000000000000000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Unassigned User Library Modules</CurrentItem>
+   </ItemView>
+   <ItemView engineview="PostRouteSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000010a000000010000000100000000000000000000000064ffffffff0000008100000000000000010000010a0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="PostRouteSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000010a000000010000000100000000000000000000000064ffffffff0000008100000000000000010000010a0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000130000000010000000100000000000000000000000064ffffffff000000810000000000000001000001300000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+</Project>

@@ -1,0 +1,7 @@
+a(abc)*d;
+
+da salida 1 para aabc
+
+En cambio da bien la salida para (a((abc)*)d)
+
+Ademas no genera la misma expresion en forma postfija para aabce que para a(abc)e

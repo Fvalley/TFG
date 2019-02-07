@@ -1,0 +1,63 @@
+##############################################################
+#
+# Xilinx Core Generator version 12.3
+# Date: Sun Apr 17 22:57:42 2011
+#
+##############################################################
+#
+#  This file contains the customisation parameters for a
+#  Xilinx CORE Generator IP GUI. It is strongly recommended
+#  that you do not manually alter this file as it may cause
+#  unexpected and unsupported behavior.
+#
+##############################################################
+#
+# BEGIN Project Options
+SET addpads = false
+SET asysymbol = true
+SET busformat = BusFormatAngleBracketNotRipped
+SET createndf = false
+SET designentry = Advanced
+SET device = xc6vlx75t
+SET devicefamily = virtex6
+SET flowvendor = Foundation_ISE
+SET formalverification = false
+SET foundationsym = false
+SET implementationfiletype = Ngc
+SET package = ff484
+SET removerpms = false
+SET simulationfiles = Behavioral
+SET speedgrade = -3
+SET verilogsim = true
+SET vhdlsim = true
+# END Project Options
+# BEGIN Select
+SELECT Binary_Counter family Xilinx,_Inc. 11.0
+# END Select
+# BEGIN Parameters
+CSET ainit_value=0
+CSET ce=false
+CSET component_name=divisor
+CSET count_mode=UP
+CSET fb_latency=0
+CSET fb_latency_configuration=Manual
+CSET final_count_value=1
+CSET implementation=Fabric
+CSET increment_value=1
+CSET latency=1
+CSET latency_configuration=Manual
+CSET load=false
+CSET load_sense=Active_High
+CSET output_width=24
+CSET restrict_count=false
+CSET sclr=false
+CSET sinit=false
+CSET sinit_value=0
+CSET sset=false
+CSET sync_ce_priority=Sync_Overrides_CE
+CSET sync_threshold_output=false
+CSET syncctrlpriority=Reset_Overrides_Set
+CSET threshold_value=1
+# END Parameters
+GENERATE
+# CRC: f802d455

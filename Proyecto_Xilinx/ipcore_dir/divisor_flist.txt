@@ -1,0 +1,17 @@
+# Output products list for <divisor>
+_xmsgs\pn_parser.xmsgs
+core_resources.txt
+divisor.asy
+divisor.gise
+divisor.ngc
+divisor.sym
+divisor.v
+divisor.veo
+divisor.vhd
+divisor.vho
+divisor.xco
+divisor.xise
+divisor_flist.txt
+divisor_readme.txt
+divisor_xmdf.tcl
+gui_latency.txt

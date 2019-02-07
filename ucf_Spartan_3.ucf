@@ -1,0 +1,118 @@
+# para usar como reloj el del teclado
+#NET PS2CLK CLOCK_DEDICATED_ROUTE = FALSE;
+#NET PS2CLK LOC=B16;
+#NET PS2DATA LOC=E13;
+
+#salida del oscilador a 100MHz
+#
+NET clock LOC=T9;
+#
+
+	#switches placa superior
+
+#NET SW<1> LOC=K4;
+#NET SW<2> LOC=K3;
+#NET SW<3> LOC=K2;
+#NET SW<4> LOC=J4;
+
+	#switches placa extendida
+
+#NET reset LOC=P12;
+#NET DIPSW<2> LOC=J1;
+#NET DIPSW<3> LOC=H1;
+#NET DIPSW<4> LOC=H3;
+#NET DIPSW<5> LOC=G2;
+#NET DIPSW<6> LOC=K15;
+#NET DIPSW<7> LOC=K16;
+#NET DIPSW<8> LOC=F15;
+
+#
+	#push buttons placa superior
+#NET SW2 LOC=E11; 
+#NET SW3 LOC=A13; 
+
+	# Push button placa extendida
+#NET pushb1 LOC=H4;
+#NET pushb2 LOC=L5;
+#NET pushb3 LOC=N2;
+#NET pushb4 LOC=M3;
+
+
+#barra de leds placa extendida
+
+NET output1 LOC=L5;
+NET output2 LOC=N2;
+#NET dato<2> LOC=M3;
+#NET dato<3> LOC=N1;
+#NET dato<4> LOC=T13;
+#NET dato<5> LOC=L15;
+#NET dato<6> LOC=J13;
+#NET dato<7> LOC=H15;
+#NET dato<8> LOC=J16;
+#NET dato<9> LOC=J14;
+
+ 
+
+#Display 7-segmentos 
+#
+#		   S0
+#		   ---
+#	    S5	|	|s1
+#		    S6
+#		   ---
+#	    S4	|	|S2
+#
+#		   ---
+#		   S3
+
+
+#Display 7-segmentos de la placa superior
+
+#net display<0> loc=R10;
+#net display<1> loc=P10;
+#net display<2> loc=M11;
+#NET display<3> loc=M6;
+#NET display<4> loc=N6;
+#NET display<5> loc=T7;
+#NET display<6> loc=R7;
+
+#Display 7-segmentos de la parte izquierda de la placa extendida:
+
+#NET displayi<0> LOC=H14;
+#NET displayi<1> LOC=M4;
+#NET displayi<2> LOC=P1;
+#NET displayi<3> LOC=N3;
+#NET displayi<4> LOC=M15;
+#NET displayi<5> LOC=H13;
+#NET displayi<6> LOC=G16;
+
+
+
+
+#Display 7-segmentos de la parte derecha de la placa extendida
+
+#NET displayd<0> loc=E2;
+#NET displayd<1> loc=E1;
+#NET displayd<2> loc=F3;
+#NET displayd<3> loc=F2;
+#NET displayd<4> loc=G4;
+#NET displayd<5> loc=G3;
+#NET displayd<6> loc=G1;
+
+
+#PINES VGA
+
+#NET rgb<8> LOC = C9; #VGA-BLUE0 #BLU0
+#NET rgb<7> LOC = E7; #VGA-BLUE1  #BLU1
+#NET rgb<6> LOC = D5; #VGA-BLUE2 #BLU2
+#NET rgb<5> LOC = A8; #VGA-GREEN0  #GRN0
+#NET rgb<4> LOC = A5; #VGA-GREEN1  #GRN1
+#NET rgb<3> LOC = C3; #VGA-GREEN2  #GRN2
+#NET rgb<2> LOC = C8; #VGA-RED0  #RED0
+#NET rgb<1> LOC = D6; #VGA-RED1  #RED1
+#NET rgb<0> LOC = B1; #VGA-RED2  #RED2
+#NET hsyncb LOC = B7; #VGA-HSYNC#  #HSYNC#
+#NET vsyncb LOC = D8; #VGA-VSYNC#  #VSYNC#
+
+
+
