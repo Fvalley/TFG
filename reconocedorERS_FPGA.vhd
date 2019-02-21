@@ -29,9 +29,9 @@ end component;
 signal salida1: STD_LOGIC;
 signal salida2: STD_LOGIC;
 signal caracter: STD_LOGIC_VECTOR(7 downto 0);
-signal indice: STD_LOGIC_VECTOR(7 downto 0);
-type string_type is array (0 to 149) of CHARACTER;
-constant cadena_entrada : string_type :=("--aabd--jk--bb--aacc--bba--ccbbapk--ftp://--pepemartin--bb--ccca--ba--aa--abc--abcd--ftp--aaa--bb--http://bbwww.bbacjwdftpcjwd--vlc--be@ericsson.com--");
+signal indice: STD_LOGIC_VECTOR(3 downto 0);
+type string_type is array (0 to 9) of CHARACTER;
+constant cadena_entrada : string_type :=("--aabd--jk");
 
 signal charaux: CHARACTER;
 signal clkAux: std_logic_vector(23 downto 0);
@@ -50,7 +50,7 @@ begin
 	if (reset = '1') then
 		indice <= (others => '0');
 	elsif clkDiv'event and clkDiv='1' then 
-		if indice = 149 then
+		if indice = 9 then
 			indice <= (others => '0');
 		else
 			indice <= indice + 1;
