@@ -11,7 +11,8 @@ PRUEBA7 ccbba;(ckl)|(ccbbapk);
 PRUEBA8 f;
 
 PRUEBA9 (ba)|(ccc)|(dddd);(aa)|(bb)|(ccc)|(dddd);
-PRUEBA10 f;
+PRUEBA10 ^((?!GET).)*$;
+PRUEBA11 ^((?=GET).)*$;
 
 FTP ftp;((port|22)+);
 FTP1 ftp;((port|22)+);anonymous;ftp;ucm;

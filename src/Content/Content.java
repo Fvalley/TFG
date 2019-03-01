@@ -1,6 +1,5 @@
 package Content;
 
-import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -24,5 +23,13 @@ public class Content {
 	public void mostrar() {
 		System.out.println(this.contenido);
 		System.out.println(this.negado);
+	}
+
+	public String getRegex() {
+		// TODO Auto-generated method stub
+		if(this.negado)
+			return "^((?!"+this.contenido+").)*$";
+		else			
+			return ".*(?="+this.contenido+").*";
 	}
 }

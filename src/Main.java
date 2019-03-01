@@ -23,16 +23,15 @@ public class Main {
 
 		}
 		controlContent(lista, cont);
-		cont.mostrar();
-		/*Parser p = new Parser("Regular Expressions\\REFile", "VHDLFile");
-		p.process("Aux1", "PRUEBA6" );
+		Parser p = new Parser("Regular Expressions\\REFile", "VHDLFile");
+		p.process("PRUEBA10", "PRUEBA11" );
 
-		String cadena_entrada = "--aabd--jk";
+		String cadena_entrada = "--aabd-GET-ddhjsddjk";
 		VHDLGenerator.generaFicheroPrincipalFPGA(cadena_entrada);
-		VHDLGenerator.generaFicheroPrincipal(cadena_entrada);*/
+		VHDLGenerator.generaFicheroPrincipal(cadena_entrada);
 		//"--aabd--jk--bb--aacc--bba--ccbbapk--ftp://--pepemartin--bb--ccca--ba--aa--abc--abcd--ftp--aaa--bb--http://bbwww.bbacjwdftpcjwd--vlc--be@ericsson.com--"
 	}
-	public static List parseo(String nombre) throws IOException {
+	public static List<String> parseo(String nombre) throws IOException {
 		File archivo = null;
 		archivo = new File (nombre);
 		FileReader fileread = new FileReader(archivo);
@@ -50,13 +49,19 @@ public class Main {
 	}
 
 	public static void controlContent(List<String> lista, Content cont) {
-		int contador = 0;
-		String [] cosas, cosas2;
+		int contador=0,contador2 = 0;
+		String [] aux, res= new String[100];
 		while(contador < lista.size()) {
-			cosas = lista.get(contador).split(":");
-			if(cosas[0]== "content") {
-				cont = new Content(cosas[1]);
+			aux = lista.get(contador).split(":");
+			if(aux[0].equalsIgnoreCase("CONTENT")) {
+				cont = new Content(aux[1]);
+				cont.mostrar();
+				res[contador2] = cont.getRegex();
+				System.out.println(res[contador2]);
+				contador2++;
+				
 			}
+			contador++;
 		}
 		
 	}
