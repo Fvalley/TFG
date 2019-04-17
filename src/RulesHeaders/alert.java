@@ -1,6 +1,6 @@
 package RulesHeaders;
 
-public class alert extends Action{
+public class alert implements Action{
 
 	@Override
 	public Action parse(String[] s) {

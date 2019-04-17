@@ -1,6 +1,6 @@
 package RulesHeaders;
 
-public class pass extends Action {
+public class pass implements Action {
 
 	@Override
 	public Action parse(String[] s) {

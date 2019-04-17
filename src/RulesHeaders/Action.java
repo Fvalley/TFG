@@ -1,6 +1,6 @@
 package RulesHeaders;
 
-public abstract class Action {
+public interface Action {
 	
 	abstract public Action parse(String[] s);
 	

@@ -1,10 +1,6 @@
 package Content;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
-public class Content {
+public class Content implements Options {
 	private String contenido;
 	private boolean nocaseado;
 	
@@ -41,5 +37,17 @@ public class Content {
 		else			
 			return this.contenido+";";
 			//return ".*(?="+this.contenido+").*";
+	}
+
+	@Override
+	public Options parse(String[] line) {
+		// TODO Auto-generated method stub
+		if(line.length !=2)
+			return null;
+		else
+			if(line[0].equalsIgnoreCase("CONTENT"))
+				return new Content(line[1]);
+			else
+				return null;
 	}
 }

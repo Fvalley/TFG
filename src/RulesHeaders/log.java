@@ -1,6 +1,6 @@
 package RulesHeaders;
 
-public class log extends Action{
+public class log implements Action{
 
 	@Override
 	public Action parse(String[] s) {

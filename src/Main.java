@@ -6,8 +6,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import Content.Content;
-
 public class Main {
 
 	/**
@@ -15,14 +13,13 @@ public class Main {
 	 * @throws Exception 
 	 */
 	public static void main(String[] args) throws Exception {
-		Content cont = new Content();
 		List<String> lista = new ArrayList<String>();
 		lista = parseo("prueba.txt");
+		List<String> paquetes = parseoPaquetes("paquetes.txt");
 		for(int i = 0; i < lista.size();i++) {
 			System.out.println(lista.get(i).trim());
-
 		}
-		controlContent(lista, cont);
+		controlContent(lista);
 		Parser p = new Parser("Regular Expressions\\REFile", "VHDLFile");
 		p.process("PRUEBA10", "PRUEBA11" );
 
@@ -30,6 +27,10 @@ public class Main {
 		VHDLGenerator.generaFicheroPrincipalFPGA(cadena_entrada);
 		VHDLGenerator.generaFicheroPrincipal(cadena_entrada);
 		//"--aabd--jk--bb--aacc--bba--ccbbapk--ftp://--pepemartin--bb--ccca--ba--aa--abc--abcd--ftp--aaa--bb--http://bbwww.bbacjwdftpcjwd--vlc--be@ericsson.com--"
+	}
+	private static List<String> parseoPaquetes(String string) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 	public static List<String> parseo(String nombre) throws IOException {
 		File archivo = null;
@@ -44,23 +45,16 @@ public class Main {
 		sal.addAll(Arrays.asList(salida[0].split(" ")));
 		sal.addAll(Arrays.asList(salida[1].split(";")));
 		sal.remove(sal.size()-1);
+		
 		buffer.close();
 		return sal;
 	}
 
-	public static void controlContent(List<String> lista, Content cont) {
-		int contador=0,contador2 = 0;
-		String [] aux, res= new String[100];
-		while(contador < lista.size()) {
-			aux = lista.get(contador).split(":");
-			if(aux[0].equalsIgnoreCase("CONTENT")) {
-				cont = new Content(aux[1]);
-				cont.mostrar();
-				res[contador2] = cont.getRegex();
-				System.out.println(res[contador2]);
-				contador2++;
-				
-			}
+	public static void controlContent(List<String> lista) {
+		int contador=0;
+		String[] aux = lista.toArray(new String[0]);
+		while(contador < aux.length) {
+			ParserRules.parse(aux);
 			contador++;
 		}
 		
