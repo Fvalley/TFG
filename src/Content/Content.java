@@ -1,14 +1,25 @@
 package Content;
 
+import javax.xml.bind.DatatypeConverter;
+
 public class Content implements Options {
 	private String contenido;
-	
+
 	public Content() {}
 
 	public Content(String c) {
 		String[] element = c.split("\"");
 		if(element.length ==1){//para evitar el !, que noe s aceptado por regex
-			this.contenido = element[0];
+
+			if(element[0].startsWith("|") | element[0].endsWith("|")) {//Por si es en hexadecimal
+				String aux = element[0].substring(1,element[0].length()-2).trim();
+				byte[] s = DatatypeConverter.parseHexBinary(aux);
+				this.contenido= new String(s);
+
+			}
+			else {
+				this.contenido = element[0];
+			}
 		}
 		else {
 			this.contenido = element[1];
@@ -31,7 +42,7 @@ public class Content implements Options {
 			//return "^((?!"+this.contenido+").)*$";
 		}
 		else	*/		
-			
+
 	}
 
 	@Override
@@ -43,5 +54,11 @@ public class Content implements Options {
 				return new Content(line[1]);
 			else
 				return null;
+	}
+
+	@Override
+	public String cutPackage(String paquete) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }

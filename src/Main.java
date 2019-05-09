@@ -8,7 +8,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import Content.Content;
 import Content.Options;
 
 public class Main {
@@ -20,18 +19,33 @@ public class Main {
 	public static void main(String[] args) throws Exception {
 		List<List<String>> lista = new ArrayList<List<String>>();
 		lista = parseo("prueba.txt");
-		List<String> paquetes = parseoPaquetes("paquetes.txt");
+		String[] paquetes = parseoPaquetes("paquetes.txt");
 		for(int i = 0; i < lista.size();i++) {
 			for(int j = 0; j < lista.get(i).size();j++) {
-			System.out.println(lista.get(i).get(j).trim());
+				System.out.println(lista.get(i).get(j).trim());
 			}
 		}
 		List<List<Options>>listadelistadeopciones = new ArrayList<List<Options>>();
 		for(int i = 0; i < lista.size();i++) {
 			listadelistadeopciones.add(controlContent(lista.get(i)));
 		}
+		File archivoPackage = new File("logPackage.txt");
+		BufferedWriter buffer = new BufferedWriter(new FileWriter(archivoPackage));
+		for(int i = 0; i < paquetes.length;i++) {
+			for(int j=0;j<listadelistadeopciones.size();j++) {
+				String aux = paquetes[i];	
+				buffer.write(aux+"\n");
+				for(int z = 0; z < listadelistadeopciones.get(j).size();z++) {
+					String recorte = listadelistadeopciones.get(j).get(z).cutPackage(aux);
+					if(recorte!= null) {
+						buffer.write(recorte+"\n");
+					}
+				}
+			}
+		}
+		buffer.close();
 		File archivoRegex = new File ("logRegex.txt");
-		BufferedWriter buffer = new BufferedWriter(new FileWriter(archivoRegex));
+		buffer = new BufferedWriter(new FileWriter(archivoRegex));
 		String Regex = "PRUEBA1 ";
 		for(int i = 0; i < listadelistadeopciones.size();i++) {
 			for(int j = 0; j < listadelistadeopciones.get(i).size();j++) {
@@ -41,7 +55,7 @@ public class Main {
 		}
 		buffer.write(Regex);
 		buffer.close();
-		
+
 		Parser p = new Parser("logRegex", "VHDLFile");
 		p.process("PRUEBA1","PRUEBA1" );
 
@@ -50,9 +64,18 @@ public class Main {
 		VHDLGenerator.generaFicheroPrincipal(cadena_entrada);
 		//"--aabd--jk--bb--aacc--bba--ccbbapk--ftp://--pepemartin--bb--ccca--ba--aa--abc--abcd--ftp--aaa--bb--http://bbwww.bbacjwdftpcjwd--vlc--be@ericsson.com--"
 	}
-	private static List<String> parseoPaquetes(String string) {
-		
-		return null;
+	private static String[] parseoPaquetes(String string) throws IOException {
+
+		File archivo = null;
+		archivo = new File (string);
+		FileReader fileread = new FileReader(archivo);
+		BufferedReader buffer = new BufferedReader(fileread);
+		String line = buffer.readLine();
+		line = line.trim();
+		String[] salida = line.split(";");
+
+		buffer.close();
+		return salida;
 	}
 	public static List<List<String>> parseo(String nombre) throws IOException {
 		List<List<String>> finalParse = new ArrayList<List<String>>();
@@ -62,14 +85,14 @@ public class Main {
 		BufferedReader buffer = new BufferedReader(fileread);
 		String line = buffer.readLine();
 		while(line!= null) {
-		line = line.trim();
-		List<String> sal = new ArrayList<String>();
-		String[] salida = line.split("\\(");
-		sal.addAll(Arrays.asList(salida[0].split(" ")));
-		sal.addAll(Arrays.asList(salida[1].split(";")));
-		sal.remove(sal.size()-1);
-		finalParse.add(sal);
-		line = buffer.readLine();
+			line = line.trim();
+			List<String> sal = new ArrayList<String>();
+			String[] salida = line.split("\\(");
+			sal.addAll(Arrays.asList(salida[0].split(" ")));
+			sal.addAll(Arrays.asList(salida[1].split(";")));
+			sal.remove(sal.size()-1);
+			finalParse.add(sal);
+			line = buffer.readLine();
 		}
 		buffer.close();
 		return finalParse;
@@ -87,5 +110,5 @@ public class Main {
 		}
 		return listaOpciones;
 	}
-	
+
 }
