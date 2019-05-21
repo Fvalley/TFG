@@ -9,6 +9,10 @@ public class Offset implements Options {
 		this.number= Integer.parseInt(string);
 	}
 
+	public Offset() {
+		// TODO Auto-generated constructor stub
+	}
+
 	@Override
 	public void mostrar() {
 		// TODO Auto-generated method stub
@@ -38,7 +42,10 @@ public class Offset implements Options {
 	@Override
 	public String cutPackage(String paquete) {
 		// TODO Auto-generated method stub
-		return paquete.substring((this.number*2)-1);
+		if(this.number > 0)//por si en la regla pone offset 0, es decir que comience al principio
+			return paquete.substring((this.number*2)-1);
+		else 
+			return null;
 	}
 
 }

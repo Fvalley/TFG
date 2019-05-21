@@ -3,11 +3,13 @@ import java.util.Arrays;
 import java.util.List;
 
 import Content.Content;
+import Content.Depth;
+import Content.Offset;
 import Content.Options;
 
 public class ParserRules {
 	private final static Options[] options = {
-			new Content()};
+			new Content(), new Offset(), new Depth(), new Protocol()};
 		
 		/**
 		 * Parser de bytecodes

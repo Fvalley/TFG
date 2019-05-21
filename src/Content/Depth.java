@@ -8,6 +8,10 @@ public class Depth implements Options {
 		this.number= Integer.parseInt(string);
 	}
 
+	public Depth() {
+		// TODO Auto-generated constructor stub
+	}
+
 	@Override
 	public void mostrar() {
 		// TODO Auto-generated method stub

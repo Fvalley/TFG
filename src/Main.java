@@ -38,7 +38,7 @@ public class Main {
 				for(int z = 0; z < listadelistadeopciones.get(j).size();z++) {
 					String recorte = listadelistadeopciones.get(j).get(z).cutPackage(aux);
 					if(recorte!= null) {
-						buffer.write(recorte+"\n");
+						buffer.write(recorte+"\n;\n");
 					}
 				}
 			}

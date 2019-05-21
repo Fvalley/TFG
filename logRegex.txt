@@ -1,1 +1,1 @@
-PRUEBA1 GET;root USER;Bank;Bank;Cayman Island;1234?;evilcookie;1234?;evilware;GET;
+PRUEBA1 ;GET;;root USER;;Bank;;Bank;Cayman Island;;1234?;evilcookie;;1234?;evilware;;;;GET;IP;
