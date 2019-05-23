@@ -8,7 +8,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import Content.Options;
+import Package.ParserPaquetes;
+import options.Options;
 
 public class Main {
 
@@ -18,17 +19,20 @@ public class Main {
 	 */
 	public static void main(String[] args) throws Exception {
 		List<List<String>> lista = new ArrayList<List<String>>();
-		lista = parseo("prueba.txt");
+		lista = parseo("pruebaxdedestruccionmasiva.txt");
 		String[] paquetes = parseoPaquetes("paquetes.txt");
 		for(int i = 0; i < lista.size();i++) {
 			for(int j = 0; j < lista.get(i).size();j++) {
 				System.out.println(lista.get(i).get(j).trim());
 			}
 		}
+		System.out.println("Terminado el parseo de reglas, su analisis");
 		List<List<Options>>listadelistadeopciones = new ArrayList<List<Options>>();
 		for(int i = 0; i < lista.size();i++) {
 			listadelistadeopciones.add(controlContent(lista.get(i)));
 		}
+
+		//Version sin hilo
 		File archivoPackage = new File("logPackage.txt");
 		BufferedWriter buffer = new BufferedWriter(new FileWriter(archivoPackage));
 		for(int i = 0; i < paquetes.length;i++) {
@@ -44,13 +48,20 @@ public class Main {
 			}
 		}
 		buffer.close();
+		//Version con hilo
+		/*ParserPaquetes hilo = new ParserPaquetes(listadelistadeopciones);
+		hilo.start();*/
 		File archivoRegex = new File ("logRegex.txt");
 		buffer = new BufferedWriter(new FileWriter(archivoRegex));
 		String Regex = "PRUEBA1 ";
+		String aux;
 		for(int i = 0; i < listadelistadeopciones.size();i++) {
 			for(int j = 0; j < listadelistadeopciones.get(i).size();j++) {
-				Regex += listadelistadeopciones.get(i).get(j).getRegex();
-				Regex +=";";
+				aux = listadelistadeopciones.get(i).get(j).getRegex();
+				if(aux!= null) {
+					Regex += aux;
+					Regex +=";";
+				}
 			}
 		}
 		buffer.write(Regex);
@@ -84,12 +95,25 @@ public class Main {
 		FileReader fileread = new FileReader(archivo);
 		BufferedReader buffer = new BufferedReader(fileread);
 		String line = buffer.readLine();
+		boolean found = false;
+		int i = 15;
 		while(line!= null) {
 			line = line.trim();
+			found =false;
+			i = 15;
+			while(!found) {
+				if(line.charAt(i) == '(')
+				{
+					found = true;
+				}
+				else
+					i++;
+			}
 			List<String> sal = new ArrayList<String>();
-			String[] salida = line.split("\\(");
-			sal.addAll(Arrays.asList(salida[0].split(" ")));
-			sal.addAll(Arrays.asList(salida[1].split(";")));
+			String salida0= line.substring(0, i);
+			String salida1 = line.substring(i+1);
+			sal.addAll(Arrays.asList(salida0.split(" ")));
+			sal.addAll(Arrays.asList(salida1.split(";")));
 			sal.remove(sal.size()-1);
 			finalParse.add(sal);
 			line = buffer.readLine();
@@ -105,8 +129,10 @@ public class Main {
 		while(contador < aux.length) {
 			option = ParserRules.parse(aux[contador]);//le pasa las partes de la regla snort
 			contador++;
-			if(option!=null)
+			if(option!=null) {
 				listaOpciones.add(option);
+				System.out.println(option.getString());
+			}
 		}
 		return listaOpciones;
 	}

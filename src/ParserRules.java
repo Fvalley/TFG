@@ -2,10 +2,11 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import Content.Content;
-import Content.Depth;
-import Content.Offset;
-import Content.Options;
+import options.Content;
+import options.Depth;
+import options.Offset;
+import options.Options;
+import options.Protocol;
 
 public class ParserRules {
 	private final static Options[] options = {

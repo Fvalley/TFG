@@ -1,8 +1,7 @@
+package options;
 import javax.xml.bind.DatatypeConverter;
 
-import Content.Options;
-
-public class Protocol implements Options {
+public class Protocol implements options.Options {
 
 	private String tipo; 
 	public Protocol(String upperCase) {
@@ -75,6 +74,12 @@ public class Protocol implements Options {
 			return null;
 		}
 		return null;
+	}
+
+	@Override
+	public String getString() {
+		// TODO Auto-generated method stub
+		return "Protocol: "+this.tipo;
 	}
 
 }

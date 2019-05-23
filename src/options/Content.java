@@ -1,4 +1,4 @@
-package Content;
+package options;
 
 import javax.xml.bind.DatatypeConverter;
 
@@ -9,20 +9,42 @@ public class Content implements Options {
 
 	public Content(String c) {
 		String[] element = c.split("\"");
-		if(element.length ==1){//para evitar el !, que noe s aceptado por regex
-
-			if(element[0].startsWith("|") | element[0].endsWith("|")) {//Por si es en hexadecimal
-				String aux = element[0].substring(1,element[0].length()-2).trim();
-				byte[] s = DatatypeConverter.parseHexBinary(aux);
-				this.contenido= new String(s);
-
-			}
-			else {
-				this.contenido = element[0];
-			}
+		int i;
+		if(element.length ==1){//para evitar el !, que no es aceptado por regex
+			i = 0;
 		}
 		else {
-			this.contenido = element[1];
+			i = 1;
+		}
+		int ini = 0;
+		int anterior = 0;
+		int aux = 0;
+		boolean first = false;
+		String result="";
+		boolean nunca = true;
+		while(aux < element[i].length()) {//Por si es en hexadecimal
+			if(element[i].charAt(aux)=='|' & !first) {
+				first = true;
+				nunca = false;
+				result += element[i].substring(anterior, aux);
+				ini = aux+1;
+			}
+			else if(element[i].charAt(aux)=='|'){
+				String hex = element[i].substring(ini,aux).trim();
+				hex = hex.replaceAll("\\s+","");
+				byte[] s = DatatypeConverter.parseHexBinary(hex);
+				result+= new String(s);
+				anterior = aux+1;
+				first = false;
+			}
+			aux++;
+		}
+		if(!nunca) {
+			this.contenido= result;
+
+		}
+		else {
+			this.contenido = element[i];
 		}
 	}
 	public void mostrar() {
@@ -60,5 +82,11 @@ public class Content implements Options {
 	public String cutPackage(String paquete) {
 		// TODO Auto-generated method stub
 		return null;
+	}
+
+	@Override
+	public String getString() {
+		// TODO Auto-generated method stub
+		return "Content: "+this.contenido;
 	}
 }

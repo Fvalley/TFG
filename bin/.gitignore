@@ -5,8 +5,9 @@
 /Stack.class
 /VHDLGenerator.class
 /ParserRules.class
-/.metadata/
-/Content/
-/RulesHeaders/
-/VHDLFile.vhd
+/ParserPaquetes.class
+/NoCase.class
 /Protocol.class
+/Content/
+/options/
+/.metadata/

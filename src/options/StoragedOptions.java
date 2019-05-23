@@ -1,4 +1,4 @@
-package Content;
+package options;
 
 public class StoragedOptions {
 	private Options[] storage;

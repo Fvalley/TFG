@@ -1,14 +1,15 @@
-package Content;
+package options;
 
-public class Depth implements Options {
+public class Offset implements Options {
 
 	private int number;
-	public Depth(String string) {
+
+	public Offset(String string) {
 		// TODO Auto-generated constructor stub
 		this.number= Integer.parseInt(string);
 	}
 
-	public Depth() {
+	public Offset() {
 		// TODO Auto-generated constructor stub
 	}
 
@@ -21,7 +22,7 @@ public class Depth implements Options {
 	@Override
 	public String getRegex() {
 		// TODO Auto-generated method stub
-		return "";
+		return null;
 	}
 
 	@Override
@@ -30,17 +31,27 @@ public class Depth implements Options {
 		if(line.length !=2)
 			return null;
 		else
-			if(line[0].equalsIgnoreCase("DEPTH"))
-				return new Depth(line[1]);
+			if(line[0].equalsIgnoreCase("OFFSET"))
+				return new Offset(line[1]);
 			else
 				return null;
 
 	}
 
+	
 	@Override
 	public String cutPackage(String paquete) {
 		// TODO Auto-generated method stub
-		return paquete.substring(0, (this.number*2)-1);
+		if(this.number > 0)//por si en la regla pone offset 0, es decir que comience al principio
+			return paquete.substring((this.number*2)-1);
+		else 
+			return null;
+	}
+
+	@Override
+	public String getString() {
+		// TODO Auto-generated method stub
+		return "Offset: "+this.number;
 	}
 
 }
