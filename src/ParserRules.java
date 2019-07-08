@@ -11,31 +11,44 @@ import options.Protocol;
 public class ParserRules {
 	private final static Options[] options = {
 			new Content(), new Offset(), new Depth(), new Protocol()};
-		
-		/**
-		 * Parser de bytecodes
-		 * @param line Array de string (split por espacio)
-		 * @return Un Bytecode si la entrada de datos es correcta y corresponde con alguno de los predefinidos
-		 */
-		public static Options parse(String line)
-	    {
-			Options devolver = null;
-	        int i = 0;
-	        line = line.trim();
-	        List<String> opciones = new ArrayList<String>();
-			String[] lineParsed = line.split(":");
-			opciones.addAll(Arrays.asList(lineParsed[0].split(":")));
-			if(lineParsed.length==2)
-			opciones.addAll(Arrays.asList(lineParsed[1].split(",")));
-			if(lineParsed.length==3)
-			opciones.addAll(Arrays.asList(lineParsed[2]));
-			String[] lineOptionsParsed = opciones.toArray(new String[0]);
-	        while(i < options.length && devolver == null)
-	        {
-	        	devolver = options[i].parse(lineOptionsParsed);
-	       		i++;
-	        }
-	       return devolver; 
+
+	/**
+	 * Parser de bytecodes
+	 * @param line Array de string (split por espacio)
+	 * @return Un Bytecode si la entrada de datos es correcta y corresponde con alguno de los predefinidos
+	 */
+	public static Options parse(String line)
+	{
+		Options devolver = null;
+		int i = 0;
+		int j = 0;
+		boolean found =false;
+		line = line.trim();
+		while(j < line.length() & !found) {
+			if(line.charAt(j) == ':')
+				found = true;
+			else
+				j++;
 		}
+		ArrayList<String> opciones = new ArrayList<String>();
+		if(found) {
+			opciones.add(line.substring(0, j));
+			opciones.add(line.substring(j+1));
+		}
+		else {
+			opciones.add(line);
+		}
+		
+		String[] lineOptionsParsed = opciones.toArray(new String[0]);
+		while(i < options.length && devolver == null)
+		{
+			devolver = options[i].parse(lineOptionsParsed);
+			i++;
+		}
+		return devolver; 
+	}
 
 }
+
+//content : "jfjfjjf", within:20, nocase
+//content "jejejejej"-within 20 

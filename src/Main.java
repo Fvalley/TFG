@@ -19,7 +19,8 @@ public class Main {
 	 */
 	public static void main(String[] args) throws Exception {
 		List<List<String>> lista = new ArrayList<List<String>>();
-		lista = parseo("pruebaxdedestruccionmasiva.txt");
+		//lista = parseo("pruebaxdedestruccionmasiva.txt");
+		lista = parseo("test.txt");
 		String[] paquetes = parseoPaquetes("paquetes.txt");
 		for(int i = 0; i < lista.size();i++) {
 			for(int j = 0; j < lista.get(i).size();j++) {
@@ -29,6 +30,7 @@ public class Main {
 		System.out.println("Terminado el parseo de reglas, su analisis");
 		List<List<Options>>listadelistadeopciones = new ArrayList<List<Options>>();
 		for(int i = 0; i < lista.size();i++) {
+			System.out.println("Regla numero: "+ i);
 			listadelistadeopciones.add(controlContent(lista.get(i)));
 		}
 
@@ -61,6 +63,8 @@ public class Main {
 				if(aux!= null) {
 					Regex += aux;
 					Regex +=";";
+					System.out.println(aux);
+						
 				}
 			}
 		}

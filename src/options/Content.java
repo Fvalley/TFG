@@ -32,6 +32,11 @@ public class Content implements Options {
 			else if(element[i].charAt(aux)=='|'){
 				String hex = element[i].substring(ini,aux).trim();
 				hex = hex.replaceAll("\\s+","");
+				if(hex.contains("0A") | hex.contains("0D") | hex.contains("3B")) {
+					hex =hex.replaceAll("0A", "");
+					hex =hex.replaceAll("0D", "");
+					hex =hex.replaceAll("3B", "");
+				}
 				byte[] s = DatatypeConverter.parseHexBinary(hex);
 				result+= new String(s);
 				anterior = aux+1;
@@ -39,6 +44,8 @@ public class Content implements Options {
 			}
 			aux++;
 		}
+		if(aux != anterior)
+			result += element[i].substring(anterior, aux);
 		if(!nunca) {
 			this.contenido= result;
 
