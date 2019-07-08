@@ -20,8 +20,8 @@ public class Main {
 	public static void main(String[] args) throws Exception {
 		List<List<String>> lista = new ArrayList<List<String>>();
 		//lista = parseo("pruebaxdedestruccionmasiva.txt");
-		lista = parseo("test.txt");
-		String[] paquetes = parseoPaquetes("paquetes.txt");
+		lista = parseo("pruebaSnortV100.txt");
+		List<String> paquetes = parseoPaquetes("paquetes.txt");
 		for(int i = 0; i < lista.size();i++) {
 			for(int j = 0; j < lista.get(i).size();j++) {
 				System.out.println(lista.get(i).get(j).trim());
@@ -37,9 +37,9 @@ public class Main {
 		//Version sin hilo
 		File archivoPackage = new File("logPackage.txt");
 		BufferedWriter buffer = new BufferedWriter(new FileWriter(archivoPackage));
-		for(int i = 0; i < paquetes.length;i++) {
+		for(int i = 0; i < paquetes.size();i++) {
 			for(int j=0;j<listadelistadeopciones.size();j++) {
-				String aux = paquetes[i];	
+				String aux = paquetes.get(i);	
 				buffer.write(aux+"\n");
 				for(int z = 0; z < listadelistadeopciones.get(j).size();z++) {
 					String recorte = listadelistadeopciones.get(j).get(z).cutPackage(aux);
@@ -64,7 +64,7 @@ public class Main {
 					Regex += aux;
 					Regex +=";";
 					System.out.println(aux);
-						
+
 				}
 			}
 		}
@@ -73,22 +73,36 @@ public class Main {
 
 		Parser p = new Parser("logRegex", "VHDLFile");
 		p.process("PRUEBA1","PRUEBA1" );
+		//Parser p = new Parser("Regular Expressions/REFile", "VHDLFile");
+		//p.process("PRUEBA1","Aux100" );
 
-		String cadena_entrada = "--aabd-GET-ddhjsddjk";
+		//String cadena_entrada = "--aajbd-GET-ddhjsddjk";
+		String cadena_entrada = paquetes.get(0);
 		VHDLGenerator.generaFicheroPrincipalFPGA(cadena_entrada);
 		VHDLGenerator.generaFicheroPrincipal(cadena_entrada);
 		//"--aabd--jk--bb--aacc--bba--ccbbapk--ftp://--pepemartin--bb--ccca--ba--aa--abc--abcd--ftp--aaa--bb--http://bbwww.bbacjwdftpcjwd--vlc--be@ericsson.com--"
 	}
-	private static String[] parseoPaquetes(String string) throws IOException {
+	private static List<String> parseoPaquetes(String string) throws IOException {
 
 		File archivo = null;
 		archivo = new File (string);
 		FileReader fileread = new FileReader(archivo);
 		BufferedReader buffer = new BufferedReader(fileread);
 		String line = buffer.readLine();
-		line = line.trim();
-		String[] salida = line.split(";");
-
+		List<String> salida = new ArrayList<String>();
+		int i = 0;
+		String aux = "";
+		while(line!=null & i < 5000) {
+			aux="";
+			while(!line.matches(";")) {
+				line = line.trim();
+				aux+= line.replace(" ", "");
+				line = buffer.readLine();
+			}
+			salida.add(aux);
+			i++;
+			line = buffer.readLine();
+		}
 		buffer.close();
 		return salida;
 	}
