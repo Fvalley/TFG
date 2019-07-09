@@ -10,8 +10,13 @@ public class StoragedOptions {
 	}
 	
 	public void add(Options opt) {
-		if (this.pos >= max) {
+		if (this.pos >= max-1) {
 			//Doblar tamaño
+			this.max = this.max*2;
+			Options[] almacen = new Options [max];
+			for(int i = 0;i < pos;i++)
+				almacen[i] = this.storage[i];
+			this.storage = almacen;
 		}
 		this.storage[this.pos] = opt;
 		this.pos++;

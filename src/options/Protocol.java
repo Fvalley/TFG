@@ -82,4 +82,13 @@ public class Protocol implements options.Options {
 		return "Protocol: "+this.tipo;
 	}
 
+	@Override
+	public boolean igual(Options option) {
+		// TODO Auto-generated method stub
+		if(this.getClass() == option.getClass()) {
+			Protocol aux = (Protocol) option;
+			return this.tipo == aux.tipo;
+		}
+		return false;	}
+
 }

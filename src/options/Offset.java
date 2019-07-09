@@ -54,4 +54,13 @@ public class Offset implements Options {
 		return "Offset: "+this.number;
 	}
 
+	@Override
+	public boolean igual(Options option) {
+		// TODO Auto-generated method stub
+		if(this.getClass() == option.getClass()) {
+			Offset aux = (Offset) option;
+			return this.number == aux.number;
+		}
+		return false;	}
+
 }

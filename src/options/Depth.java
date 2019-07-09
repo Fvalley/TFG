@@ -49,4 +49,13 @@ public class Depth implements Options {
 		return "Depth: "+this.number;
 	}
 
+	@Override
+	public boolean igual(Options option) {
+		// TODO Auto-generated method stub
+		if(this.getClass() == option.getClass()) {
+			Depth aux = (Depth) option;
+			return this.number == aux.number;
+		}
+		return false;	}
+
 }

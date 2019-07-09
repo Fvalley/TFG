@@ -96,4 +96,14 @@ public class Content implements Options {
 		// TODO Auto-generated method stub
 		return "Content: "+this.contenido;
 	}
+
+	@Override
+	public boolean igual(Options option) {
+		// TODO Auto-generated method stub
+		if(this.getClass() == option.getClass()) {
+			Content aux = (Content) option;
+			return this.contenido == aux.contenido;
+		}
+		return false;
+	}
 }

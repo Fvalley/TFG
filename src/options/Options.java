@@ -6,4 +6,5 @@ public interface Options {
 	abstract public Options parse(String[] line);
 	abstract public String cutPackage(String paquete);
 	public abstract String getString();
+	public abstract boolean igual(Options option);
 }

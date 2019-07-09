@@ -18,9 +18,11 @@ public class Main {
 	 * @throws Exception 
 	 */
 	public static void main(String[] args) throws Exception {
+		boolean hilo = true;
+		long startTime = System.nanoTime();
 		List<List<String>> lista = new ArrayList<List<String>>();
 		//lista = parseo("pruebaxdedestruccionmasiva.txt");
-		lista = parseo("pruebaSnortV100.txt");
+		lista = parseo("prueba100.txt");
 		List<String> paquetes = parseoPaquetes("paquetes.txt");
 		for(int i = 0; i < lista.size();i++) {
 			for(int j = 0; j < lista.get(i).size();j++) {
@@ -34,25 +36,30 @@ public class Main {
 			listadelistadeopciones.add(controlContent(lista.get(i)));
 		}
 
-		//Version sin hilo
 		File archivoPackage = new File("logPackage.txt");
 		BufferedWriter buffer = new BufferedWriter(new FileWriter(archivoPackage));
-		for(int i = 0; i < paquetes.size();i++) {
-			for(int j=0;j<listadelistadeopciones.size();j++) {
-				String aux = paquetes.get(i);	
-				buffer.write(aux+"\n");
-				for(int z = 0; z < listadelistadeopciones.get(j).size();z++) {
-					String recorte = listadelistadeopciones.get(j).get(z).cutPackage(aux);
-					if(recorte!= null) {
-						buffer.write(recorte+"\n;\n");
+		//Version sin hilo
+		if(!hilo)
+			for(int i = 0; i < paquetes.size();i++) {
+				for(int j=0;j<listadelistadeopciones.size();j++) {
+					String aux = paquetes.get(i);	
+					buffer.write(aux+"\n");
+					for(int z = 0; z < listadelistadeopciones.get(j).size();z++) {
+						String recorte = listadelistadeopciones.get(j).get(z).cutPackage(aux);
+						if(recorte!= null) {
+							buffer.write(recorte+"\n;\n");
+						}
 					}
 				}
 			}
+		//Version con hilo
+		else {
+			ParserPaquetes thread = new ParserPaquetes(listadelistadeopciones);
+			thread.start();
 		}
 		buffer.close();
-		//Version con hilo
-		/*ParserPaquetes hilo = new ParserPaquetes(listadelistadeopciones);
-		hilo.start();*/
+		
+		
 		File archivoRegex = new File ("logRegex.txt");
 		buffer = new BufferedWriter(new FileWriter(archivoRegex));
 		String Regex = "PRUEBA1 ";
@@ -70,6 +77,7 @@ public class Main {
 		}
 		buffer.write(Regex);
 		buffer.close();
+		long halftime = System.nanoTime();
 
 		Parser p = new Parser("logRegex", "VHDLFile");
 		p.process("PRUEBA1","PRUEBA1" );
@@ -80,6 +88,9 @@ public class Main {
 		String cadena_entrada = paquetes.get(0);
 		VHDLGenerator.generaFicheroPrincipalFPGA(cadena_entrada);
 		VHDLGenerator.generaFicheroPrincipal(cadena_entrada);
+		long endTime = System.nanoTime();
+		System.out.println("Tiempo fuera de caja negra "+(halftime - startTime) + " ns"); 
+		System.out.println("Tiempo total "+(endTime - startTime) + " ns"); 
 		//"--aabd--jk--bb--aacc--bba--ccbbapk--ftp://--pepemartin--bb--ccca--ba--aa--abc--abcd--ftp--aaa--bb--http://bbwww.bbacjwdftpcjwd--vlc--be@ericsson.com--"
 	}
 	private static List<String> parseoPaquetes(String string) throws IOException {
@@ -148,11 +159,20 @@ public class Main {
 			option = ParserRules.parse(aux[contador]);//le pasa las partes de la regla snort
 			contador++;
 			if(option!=null) {
-				listaOpciones.add(option);
+				if(!existe(listaOpciones,option))
+					listaOpciones.add(option);
 				System.out.println(option.getString());
 			}
 		}
 		return listaOpciones;
+	}
+	private static boolean existe(List<Options> listaOpciones, Options option) {
+		// TODO Auto-generated method stub
+		for(int i = 0; i < listaOpciones.size();i++) {
+			if(listaOpciones.get(i).igual(option))
+				return true;
+		}
+		return false;
 	}
 
 }

@@ -7,3 +7,4 @@ alert tcp any any -> any 80 (content:"1234?"; content:"evilware"; http_client_bo
 alert tcp any any <> any 80 (msg:"MD5 Alert"; protected_content:"293C9EA246FF9985DC6F62A650F78986"; hash:md5; offset:0; length:4;)
 alert tcp any any -> any 80 (content:!"GET";)
 alert ip any any -> any any (pcre:"/EVIL/i";)
+ alert tcp $EXTERNAL_NET any -> $HOME_NET 53 ( msg:"SERVER-OTHER Bind Buffer Overflow via NXT records"; flow:to_server;established; content:"../../../";fast_pattern;nocase; metadata:ruleset community; service:dns; reference:bugtraq;788; reference:cve;1999-0833; classtype:attempted-admin; sid:258; rev:17; )
