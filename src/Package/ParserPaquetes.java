@@ -5,6 +5,7 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 
 import options.Options;
@@ -15,15 +16,15 @@ public class ParserPaquetes extends Thread{
 		this.options= opciones;
 	}
 	public void run() {
-		String[] paquetes;
+		List<String> paquetes;
 		try {
 			paquetes = parseoPaquetes("paquetes.txt");
 
 			File archivoPackage = new File("logPackage.txt");
 			BufferedWriter buffer = new BufferedWriter(new FileWriter(archivoPackage));
-			for(int i = 0; i < paquetes.length;i++) {
+			for(int i = 0; i < paquetes.size();i++) {
 				for(int j=0;j<this.options.size();j++) {
-					String aux = paquetes[i];	
+					String aux = paquetes.get(i);	
 					buffer.write(aux+"\n");
 					for(int z = 0; z < this.options.get(j).size();z++) {
 						String recorte = this.options.get(j).get(z).cutPackage(aux);
@@ -39,16 +40,27 @@ public class ParserPaquetes extends Thread{
 			e.printStackTrace();
 		}
 	}
-	private static String[] parseoPaquetes(String string) throws IOException {
+	private static List<String> parseoPaquetes(String string) throws IOException {
 
 		File archivo = null;
 		archivo = new File (string);
 		FileReader fileread = new FileReader(archivo);
 		BufferedReader buffer = new BufferedReader(fileread);
 		String line = buffer.readLine();
-		line = line.trim();
-		String[] salida = line.split(";");
-
+		List<String> salida = new ArrayList<String>();
+		int i = 0;
+		String aux = "";
+		while(line!=null & i < 5000) {
+			aux="";
+			while(!line.matches(";")) {
+				line = line.trim();
+				aux+= line.replace(" ", "");
+				line = buffer.readLine();
+			}
+			salida.add(aux);
+			i++;
+			line = buffer.readLine();
+		}
 		buffer.close();
 		return salida;
 	}

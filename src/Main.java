@@ -23,6 +23,7 @@ public class Main {
 		List<List<String>> lista = new ArrayList<List<String>>();
 		//lista = parseo("pruebaxdedestruccionmasiva.txt");
 		lista = parseo("prueba100.txt");
+		String nlog = "1";
 		List<String> paquetes = parseoPaquetes("paquetes.txt");
 		for(int i = 0; i < lista.size();i++) {
 			for(int j = 0; j < lista.get(i).size();j++) {
@@ -32,7 +33,7 @@ public class Main {
 		System.out.println("Terminado el parseo de reglas, su analisis");
 		List<List<Options>>listadelistadeopciones = new ArrayList<List<Options>>();
 		for(int i = 0; i < lista.size();i++) {
-			System.out.println("Regla numero: "+ i);
+			System.out.println("Regla numero: "+ i+" ");
 			listadelistadeopciones.add(controlContent(lista.get(i)));
 		}
 
@@ -61,8 +62,8 @@ public class Main {
 		
 		
 		File archivoRegex = new File ("logRegex.txt");
-		buffer = new BufferedWriter(new FileWriter(archivoRegex));
-		String Regex = "PRUEBA1 ";
+		buffer = new BufferedWriter(new FileWriter(archivoRegex,true));
+		String Regex = "PRUEBA"+ nlog + " ";
 		String aux;
 		for(int i = 0; i < listadelistadeopciones.size();i++) {
 			for(int j = 0; j < listadelistadeopciones.get(i).size();j++) {
@@ -75,6 +76,7 @@ public class Main {
 				}
 			}
 		}
+		Regex += "\n";
 		buffer.write(Regex);
 		buffer.close();
 		long halftime = System.nanoTime();
@@ -159,7 +161,7 @@ public class Main {
 			option = ParserRules.parse(aux[contador]);//le pasa las partes de la regla snort
 			contador++;
 			if(option!=null) {
-				if(!existe(listaOpciones,option))
+				//if(!existe(listaOpciones,option))
 					listaOpciones.add(option);
 				System.out.println(option.getString());
 			}
