@@ -20,6 +20,7 @@ public class Main {
 	public static void main(String[] args) throws Exception {
 		boolean hilo = true;
 		long startTime = System.nanoTime();
+		RandomSnort.generarRandom(100);
 		List<List<String>> lista = new ArrayList<List<String>>();
 		//lista = parseo("pruebaxdedestruccionmasiva.txt");
 		lista = parseo("prueba100.txt");

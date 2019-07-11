@@ -10,7 +10,7 @@ import options.Protocol;
 
 public class ParserRules {
 	private final static Options[] options = {
-			new Content(), new Offset(), new Depth(), new Protocol()};
+			new Content(), new Offset(), new Depth()};
 
 	/**
 	 * Parser de bytecodes
