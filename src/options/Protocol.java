@@ -30,6 +30,11 @@ public class Protocol implements options.Options {
 			byte[] icmp = DatatypeConverter.parseHexBinary("01");
 			return new String(icmp);
 		case "IP":
+			byte[] aux1 = DatatypeConverter.parseHexBinary("06");
+			byte[] aux2 = DatatypeConverter.parseHexBinary("01");
+			byte[] aux3 = DatatypeConverter.parseHexBinary("11");
+			String result = new String(aux1) + "|"+ new String(aux2)+ "|"+ new String(aux3);
+			return result;
 			break;
 		case "UDP":
 			byte[] udp = DatatypeConverter.parseHexBinary("11");
